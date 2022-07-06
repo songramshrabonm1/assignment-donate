@@ -16,6 +16,8 @@ body{
 }
 .donate{
     justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
     margin-left: 42%;
     padding: 5px;
     background-image: linear-gradient(rgb(160, 19, 101),orange);
@@ -27,7 +29,7 @@ body{
     margin-top: -3px;
     transition: 8ms;
 }
-.second-text{
+.Donate-text{
     margin-top: 80px;
     text-align: center;
 }
@@ -51,6 +53,41 @@ body{
     transition: 8ms;
     color: rgb(211, 142, 52);
 }
-hr{
-    width: 60%;
+.other-taka{
+    margin-left: 30%;
+    padding-left: 65px;
+    padding-right: 45px;
 }
+.help{
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 10px;
+    width: 50%;
+    height: 5%;
+    box-shadow: 10px 10px 10px black;
+}
+.box{
+    display: flex;
+}
+.help:hover{
+    margin-top: -5px;
+    transition: 8ms;
+    color:rgba(195, 110, 165, 0.871);
+#food{
+    background-color: rgba(233, 150, 122, 0.302);
+
+}
+#shelter{
+    background-color: beige;
+}
+
+#Education{
+    background-color: rgba(95, 158, 160, 0.302);
+}
+
+
+
+
+
+
